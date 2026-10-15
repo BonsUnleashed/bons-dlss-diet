@@ -24,6 +24,10 @@ At 4K with shaders on, the graphics card does almost all of the work per pixel. 
 
 RTX 3080, 3840x2066, Complementary Unbound r5.7.1 + Euphoria Patches 1.8.6 with Distant Horizons, in a 560-mod pack. Same world and session, 14 October 2026, medians of the per-second frame rate. Your numbers depend on your card, resolution and settings; a scene limited by the processor rather than the graphics card gains little.
 
+![Frames per second with and without DLSS, five scenes](media/fps-chart.webp)
+
+![Forest from above: left half without DLSS, right half with Bons DLSS Diet](media/forest-split.webp)
+
 Want more? DLSS Quality is the default because it looks like the native frame. Super Resolution also offers Balanced and Performance: fewer rendered pixels, more frames, a little less detail. Ocean view from the shore: 59 without DLSS, 76 with Quality, 84 with Performance.
 
 ## Gets along with your other mods
