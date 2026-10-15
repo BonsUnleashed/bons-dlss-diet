@@ -22,7 +22,7 @@ At 4K with shaders on, the graphics card does almost all of the work per pixel. 
 | Nether | 76 | 100 | +32% |
 | The End | 64 | 89 | +39% |
 
-RTX 3080, 3840x2066, Complementary Unbound r5.7.1 + Euphoria Patches 1.8.6 with Distant Horizons, in a 560-mod pack. Same world and session, 14 October 2026, medians of the per-second frame rate. Your numbers depend on your card, resolution and settings; a scene limited by the processor rather than the graphics card gains little.
+RTX 3080, 3840x2066, Complementary Unbound r5.7.1 + Euphoria Patches 1.8.6 with Distant Horizons, in a 560-mod pack. Same world and session, 14 October 2026, medians of the per-second frame rate. Your numbers depend on your card, resolution and settings; a scene limited by the processor rather than the graphics card gains little. DLSS pays off when the graphics card is the limit: on an RTX 4090 at the pack's default settings, where the card already runs 145 FPS, DLSS Quality gave about 150, a few percent.
 
 ![Frames per second with and without DLSS, five scenes](media/fps-chart.webp)
 
