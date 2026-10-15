@@ -58,16 +58,18 @@ mandatory=false
 versionRange="*"
 ordering="AFTER"
 side="CLIENT"
+# optional dependencies carry no version floor: Forge refuses to boot when an installed optional dependency falls
+# outside the range, and Super Resolution's "0.9.2-alpha.2+opengl" sorts below "0.9.2" (pre-release ordering)
 [[dependencies.{MOD_ID}]]
 modId="oculus"
 mandatory=false
-versionRange="[1.8.0,)"
+versionRange="*"
 ordering="AFTER"
 side="CLIENT"
 [[dependencies.{MOD_ID}]]
 modId="super_resolution"
 mandatory=false
-versionRange="[0.9.2,)"
+versionRange="*"
 ordering="NONE"
 side="CLIENT"
 '''
