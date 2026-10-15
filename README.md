@@ -1,3 +1,5 @@
+![Bons DLSS Diet cover - AI-generated promotional concept art](https://github.com/BonsUnleashed/bons-dlss-diet/releases/download/v1.0.0/bons-dlss-diet-cover.png)
+
 # Bons DLSS Diet
 
 **Same picture. A third more frames.**
@@ -86,3 +88,5 @@ Client only. Nothing is needed on a server.
 Complementary Shaders by EminGT ([complementary.dev](https://www.complementary.dev)) and Euphoria Patches by SpacEagle17 ([euphoriapatches.com](https://www.euphoriapatches.com)) are not included. The mod patches the copies you installed, in the way Euphoria Patches itself works, and the patched copy keeps their licence files. DLSS is NVIDIA's; [Super Resolution](https://modrinth.com/mod/superresolution) by 187J3X1 brings it into the game. See [NOTICE.md](NOTICE.md).
 
 Created by BonsUnleashed. Developed with AI assistance. The mod's own code is released under the [MIT License](LICENSE); the source and build script come with every release.
+
+Cover art: AI-generated promotional concept art. Modrinth icon: detail from Frank R. Paul's cover of Amazing Stories, April 1928, public domain in the United States (publication term expired); scan from the Internet Archive, cropped and resized, original colour.
