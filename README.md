@@ -79,6 +79,7 @@ Client only. Nothing is needed on a server.
 - After a Complementary or Euphoria Patches update the generated folder is rebuilt on the next start as soon as the mod supports the new pair; until then it stays as it is.
 - Preset K is the DLSS model that looked best on our RTX 3080. Super Resolution lets you try the others.
 - Iris on 1.20.1 has no per-object motion vectors, so fast-moving mobs and ships carry only the camera's motion. DLSS's own history checks cover them; we saw no ghosting in our scenes.
+- With the Euphoria Patcher mod 1.8.6 and Oculus 1.8.0, the plain Euphoria pack itself fails to compile unless Super Resolution is installed (final.fsh, "undefined variable _10", on every card we tried). The DLSS copy with Super Resolution works. This is not caused by this mod; if your plain pack is broken, Super Resolution fixes it as a side effect.
 
 ## Credits and licence
 
