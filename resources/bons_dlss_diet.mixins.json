@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "bons.dlssdiet.mixin",
+  "plugin": "bons.dlssdiet.mixin.DietMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "CommonUniformsMixin",
+    "CompositeRendererMixin",
+    "IrisLoadMixin",
+    "WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

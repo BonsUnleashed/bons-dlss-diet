@@ -31,7 +31,11 @@ import org.apache.logging.log4j.Logger;
  * loading completes (the Euphoria patcher may have written its pack by then), at the first screen that opens (title
  * screen, or the world when the game was started with quick play) and whenever the shader pack screen opens. Oculus
  * loads its pack before any mod constructs, so when the selected pack is one this start wrote, Oculus is asked to
- * reload once (reflection; nothing here links against Oculus).
+ * reload once (reflection).
+ * <p>
+ * Since 1.1.0 the mod runs DLSS itself (bons.dlssdiet.runtime + three Oculus hooks in bons.dlssdiet.mixin, native code
+ * in natives/windows-x64): no other mod is needed. With the Super Resolution mod installed the hooks stay off and that
+ * mod serves the same shader-pack interface, as in 1.0.0.
  */
 @Mod(BonsDlssDiet.MOD_ID)
 public final class BonsDlssDiet {
@@ -47,6 +51,8 @@ public final class BonsDlssDiet {
         if (FMLEnvironment.dist != Dist.CLIENT) {
             return;
         }
+        boolean sr = net.minecraftforge.fml.ModList.get().isLoaded("super_resolution");
+        LOG.info("Bons DLSS Diet: DLSS runs {}", sr ? "through the Super Resolution mod (installed)" : "in this mod (built-in runtime)");
         run("start");
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onLoadComplete);
         MinecraftForge.EVENT_BUS.addListener(this::onScreen);
